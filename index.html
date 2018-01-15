@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta property="og:title"              content="Mauricio Del Río" />
 	<meta property="og:description"        content="Conóceme" />
-	<meta property="og:image"              content="https://lh6.googleusercontent.com/n-Hkaw89fZnC60dP4nqexAElPLy0YK2fQyH2TBV_IMuLPgWUvi9oTXwilOo7z3kwCqFcEujV5MzEWQyYFev3=w1323-h678" />
+	<meta property="og:image"              content="https://scontent.faep3-1.fna.fbcdn.net/v/t1.0-9/15170828_694993100676485_663602732384038275_n.jpg?oh=76778213e6b3cb3dc7254ed4aa3c4b51&oe=5AB250EF" />
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -51,10 +51,25 @@ href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-ca
 		text-align: center;
 	}
 
-	img{
-		height: 45%;
-    width: 45%;
-		border-radius: 50%;
+	.thumbnail {
+		position: relative;
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+	}
+	.thumbnail img {
+		position: absolute;
+		left: 50%;
+		top: 20%;
+		height: 100%;
+		width: auto;
+		-webkit-transform: translate(-50%,-50%);
+				-ms-transform: translate(-50%,-50%);
+						transform: translate(-50%,-50%);
+	}
+	.thumbnail img.portrait {
+		width: 100%;
+		height: auto;
 	}
 
 	.top{
@@ -116,8 +131,8 @@ href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-ca
 				<h3>Mauricio Eduardo Del Río Zorrilla</h3>
 				<h5>Ciencia de la computación <i class="fa fa-university" aria-hidden="true"></i> USACH</h5>
 				<h5>Node & React dev <i class="fa fa-code" aria-hidden="true"></i> <i class="fa fa-laptop" aria-hidden="true"></i>	</h5>
-				<div class="center">
-					<img src="https://lh6.googleusercontent.com/n-Hkaw89fZnC60dP4nqexAElPLy0YK2fQyH2TBV_IMuLPgWUvi9oTXwilOo7z3kwCqFcEujV5MzEWQyYFev3=w1323-h678" alt="">
+				<div class="thumbnail center">
+					<img src="https://scontent.faep3-1.fna.fbcdn.net/v/t1.0-9/15170828_694993100676485_663602732384038275_n.jpg?oh=76778213e6b3cb3dc7254ed4aa3c4b51&oe=5AB250EF" class="portrait" alt="Image" />
 				</div>
 			</div>
 		</div>
